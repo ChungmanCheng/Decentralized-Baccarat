@@ -1,17 +1,18 @@
 {
   "devDependencies": {
     "@aave/core-v3": "^1.19.3",
+    "@chainlink/contracts": "^1.5.0",
     "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
     "@nomicfoundation/hardhat-ethers": "^3.0.4",
     "@nomicfoundation/hardhat-network-helpers": "^1.1.2",
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "@nomicfoundation/hardhat-verify": "^2.0.0",
     "@nomiclabs/hardhat-ganache": "^2.0.1",
-    "@openzeppelin/contracts": "^5.4.0",
+    "@openzeppelin/contracts": "^4.9.6",
     "@typechain/ethers-v6": "^0.4.3",
     "@typechain/hardhat": "^8.0.3",
     "@types/mocha": "^10.0.10",
-    "chai": "^6.2.2",
+    "chai": "^4.3.4",
     "dotenv": "^17.2.3",
     "ethers": "^6.16.0",
     "hardhat": "^2.22.10",
@@ -20,10 +21,6 @@
     "solidity-coverage": "^0.8.17",
     "ts-node": "^10.9.2",
     "typechain": "^8.3.2",
-    "typescript": "^5.9.3",
-    "@chainlink/contracts": "^1.5.0"
-
-  },
-  "dependencies": {
+    "typescript": "^5.9.3"
   }
 }

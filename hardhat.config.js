@@ -5,15 +5,14 @@ require("hardhat-deploy");
 
 require("dotenv").config();
 
-const ETHEREUM_RPC_URL = process.env.ETHEREUM_RPC_URL;
-const Sepolia_RPC_URL = process.env.Sepolia_RPC_URL;
-const POLYGON_RPC_URL = process.env.POLYGON_RPC_URL;
-const Optimism_RPC_URL = process.env.Optimism_RPC_URL;
-const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const ETHEREUM_RPC_URL    = process.env.ETHEREUM_RPC_URL    || "https://eth-mainnet.example.com";
+const Sepolia_RPC_URL     = process.env.Sepolia_RPC_URL     || "https://eth-sepolia.example.com";
+const POLYGON_RPC_URL     = process.env.POLYGON_RPC_URL     || "https://polygon-mainnet.example.com";
+const Optimism_RPC_URL    = process.env.Optimism_RPC_URL    || "https://optimism-mainnet.example.com";
+const PRIVATE_KEY         = process.env.PRIVATE_KEY         || "0x" + "0".repeat(64);
 
-const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
-
-const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY;
+const ETHERSCAN_API_KEY     = process.env.ETHERSCAN_API_KEY     || "";
+const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || "";
   
 
 /** @type import('hardhat/config').HardhatUserConfig */
