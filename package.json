@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "test": "hardhat test",
+    "test:unit": "hardhat test test/unit/Baccarat.test.js",
+    "compile": "hardhat compile",
+    "deploy:local": "hardhat deploy --network localhost",
+    "deploy:sepolia": "hardhat deploy --network sepolia"
+  },
   "devDependencies": {
     "@aave/core-v3": "^1.19.3",
     "@chainlink/contracts": "^1.5.0",
