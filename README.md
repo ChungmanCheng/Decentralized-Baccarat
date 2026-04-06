@@ -4,6 +4,14 @@ On-chain Punto Banco (Baccarat) powered by **Chainlink VRF v2.5**. Players bet w
 
 ---
 
+## Deployments
+
+| Network | Address | Explorer |
+|---|---|---|
+| Sepolia (testnet) | `0xa7A4acAfe14769FC323ec750299628e9f4c916Bf` | [Etherscan](https://sepolia.etherscan.io/address/0xa7A4acAfe14769FC323ec750299628e9f4c916Bf#code) |
+
+---
+
 ## Table of Contents
 
 - [How It Works](#how-it-works)

@@ -29,7 +29,7 @@ const networkConfig = {
     // ── Ethereum Sepolia (testnet) ───────────────────────────────────────
     11155111: {
         name: "Sepolia",
-        vrfCoordinatorV2_5: "0x9DdfaCa8183c41ad55329BdeeD9F6A8d53168B1b",
+        vrfCoordinatorV2_5: "0x9DdfaCa8183c41ad55329BdeeD9F6A8d53168B1B",
         // 150 gwei lane
         keyHash: "0x787d74caea10b2b357790d5b5247c2f63d1d91572a9846f780606e4d953677ae",
         subscriptionId: process.env.VRF_SUBSCRIPTION_ID ?? "0",
