@@ -4,7 +4,10 @@
     "test:unit": "hardhat test test/unit/Baccarat.test.js",
     "compile": "hardhat compile",
     "deploy:local": "hardhat deploy --network localhost",
-    "deploy:sepolia": "hardhat deploy --network sepolia"
+    "deploy:sepolia": "hardhat deploy --network sepolia",
+    "deploy:sepolia-ledger": "hardhat run scripts/deploy-keyless.js --network sepolia-ledger",
+    "deploy:mainnet-ledger": "hardhat run scripts/deploy-keyless.js --network mainnet-ledger",
+    "deploy:anonymous": "hardhat run scripts/deploy-anonymous.js"
   },
   "devDependencies": {
     "@aave/core-v3": "^1.19.3",
